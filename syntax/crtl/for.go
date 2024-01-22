@@ -62,7 +62,7 @@ type User struct {
 
 func Switch(status []int) string {
 	switch status {
-	case []int{123}:
+	case nil:
 		return "初始化"
 	}
 	return "未知"
